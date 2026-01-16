@@ -1,0 +1,15 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "files.autoSave": "afterDelay",
+    "editor.fontSize": 16,
+    "editor.wordWrap": "on",
+    "explorer.confirmDragAndDrop": false,
+    "window.menuBarVisibility": "compact",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.external.linuxExec": "alacritty",
+    "terminal.explorerKind": "external",
+    "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
+    "workbench.settings.applyToAllProfiles": [
+        "terminal.integrated.fontFamily"
+    ]
+}

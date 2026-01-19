@@ -11,5 +11,7 @@
     "terminal.integrated.fontFamily": "MesloLGS Nerd Font",
     "workbench.settings.applyToAllProfiles": [
         "terminal.integrated.fontFamily"
-    ]
+    ],
+    "syncSettings.confirmSync": true,
+    "syncSettings.resources": ["extensions", "keybindings", "settings", "snippets", "tasks"]
 }

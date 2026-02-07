@@ -1,4 +1,30 @@
 {
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "type": "bashdb",
+                "request": "launch",
+                "name": "Bash-Debug (ask for args)",
+                "cwd": "${workspaceFolder}",
+                "program": "${file}",
+                "args": ["${input:userArg}"]
+            },
+            {
+                "type": "bashdb",
+                "request": "launch",
+                "name": "Bash-Debug (simplest configuration)",
+                "program": "${file}"
+            }
+        ],
+        "inputs": [  
+            {  
+            "id": "userArg",  
+            "type": "promptString",  
+            "description": "Enter a command line argument:"  
+            }  
+        ] 
+    },
     "workbench.colorTheme": "One Dark Pro",
     "files.autoSave": "afterDelay",
     "editor.fontSize": 16,
@@ -13,5 +39,5 @@
         "terminal.integrated.fontFamily"
     ],
     "syncSettings.confirmSync": true,
-    "syncSettings.resources": ["extensions", "keybindings", "settings", "snippets", "tasks"]
+    "syncSettings.resources": ["extensions", "keybindings", "settings", "snippets", "tasks"],
 }
